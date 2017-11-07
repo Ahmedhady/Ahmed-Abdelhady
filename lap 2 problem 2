@@ -11,6 +11,8 @@ cout<<A<<endl<<P<<endl;
 return 0;
 }
 
+
+
 int L,A,P;
 cout<<"enter your dimesion"<<endl;
 cin>>L;
@@ -18,3 +20,21 @@ A=L*L;
 P=L+L+L+L;
 cout<<A<<endl<<P<<endl;
 return 0;
+
+
+
+
+#include <iostream>
+#define PI 3.14
+using namespace std;
+int main ()
+{
+double r,A,P;
+cout <<"enter your redius"<<endl;
+cin >>r;
+A=r*r*PI;
+P=2*r*PI;
+cout <<A<<endl<<P<<endl;
+return 0;
+}
+
